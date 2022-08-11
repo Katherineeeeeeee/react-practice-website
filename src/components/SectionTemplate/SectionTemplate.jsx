@@ -1,16 +1,19 @@
+import s from './SectionTemplate.module.css';
+
 const SectionTemplate = ({ url, title, desc }) => {
-    console.log('url :>> ', url);
   return (
-    <div className="container">
+   <div className="container">
+        <div className={s.containerSection1}>
       <div>
-        <img src={url} alt={title} />
+        <img src={url} alt={title}/>
       </div>
 
       <div>
-        <h2>{title}</h2>
-        <p>{desc}</p>
+        <h2 className={s.title}>{title}</h2>
+        <p className={s.descItem}>{desc}</p>
       </div>
     </div>
+   </div>
   );
 };
 
