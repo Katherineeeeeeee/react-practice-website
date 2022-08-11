@@ -1,4 +1,5 @@
 import Header from "./Header/Header";
+import Hero from "./Hero/Hero";
 
 export const App = () => {
   return (
@@ -14,6 +15,7 @@ export const App = () => {
     >
 
       <Header/>
+      <Hero />
     </div>
   );
 };
