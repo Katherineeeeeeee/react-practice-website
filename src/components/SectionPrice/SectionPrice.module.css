@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+
+  text-align: center;
+
+  color: #091133;
+}
+
+.txt {
+  width: 550px;
+  /* width: 45vw; */
+  text-align: center;
+}
+
+.price {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.32;
+
+  text-align: center;
+  letter-spacing: 1px;
+
+  color: #222f65;
+}
+
+.priceDesc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  color: #37447e;
+}
+
+.priceSee {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+
+  color: #5d6970;
+}
