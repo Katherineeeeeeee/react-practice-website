@@ -6,24 +6,17 @@ import SectionTemplateList from './SectionTemplate/SectionTemplateList';
 import items from '../database/array.js';
 
 import SectionPrice from './SectionPrice/SectionPrice';
+import Footer from './Footer/Footer';
 
 export const App = () => {
   return (
-    <div
-    // style={{
-    //   height: '100vh',
-    //   display: 'flex',
-    //   justifyContent: 'center',
-    //   alignItems: 'center',
-    //   fontSize: 40,
-    //   color: '#010101'
-    // }}
-    >
+    <div>
       <Header />
       <Hero />
       <Section1 />
       <SectionTemplateList items={items} />
       <SectionPrice />
+      <Footer />
     </div>
   );
 };
