@@ -6,12 +6,11 @@ const Hero = () => {
   return (
     <div className="container">
       <div className={s.heroWrap}>
-        <h1 className={s.title}>
-          {' '}
-          Introduce Your Product Quickly & Effectively{' '}
+        <h1 className={s.heroTitle}>
+          Introduce Your Product Quickly & Effectively
         </h1>
 
-        <p>
+        <p className={s.heroTxt}>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
           et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
@@ -19,12 +18,7 @@ const Hero = () => {
           consequat massa quis enim.
         </p>
 
-        <div
-          style={{
-            display: 'flex',
-            gap: '15px',
-          }}
-        >
+        <div className={s.heroBtnWrap}>
           <Button title="Purchase UI Kit" />
           <Button title="Learn More" light={true} />
         </div>

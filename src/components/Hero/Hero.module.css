@@ -1,4 +1,27 @@
-.heroWrap{
-    width: 555px;
+.heroWrap {
+  width: 555px;
+  margin-top: 200px;
+  margin-bottom: 300px;
 }
 
+.heroBtnWrap {
+  display: flex;
+  gap: 15px;
+  margin-top: 70px;
+}
+
+.heroTitle {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.32;
+  letter-spacing: 1px;
+  color: #091133;
+}
+
+.heroTxt {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+
+  color: #505f98;
+}
