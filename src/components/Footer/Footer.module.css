@@ -27,5 +27,15 @@
   height: 1px;
   background-color: #cdd1d4;
 }
+.txt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #939ea4;
+}
+
 .downFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className={s.footer}>
       <div className={s.wrap}>
         <div className={s.topFooter}>
-          <p> ©2020 Yourcompany</p>
+          <p className={s.txt}> ©2020 Yourcompany</p>
           <Logo />
           <Button title="Purchase now" />
         </div>
