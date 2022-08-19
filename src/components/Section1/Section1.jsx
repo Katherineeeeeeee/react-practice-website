@@ -40,7 +40,7 @@ const Section1 = () => {
           <img
             className={s.img}
             src={require('../../pics/img-sect.png')}
-            alt="Big picture"
+            alt="Big girl"
           />
         </div>
       </div>
