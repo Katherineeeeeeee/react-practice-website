@@ -2,7 +2,7 @@ import s from './SectionTemplate.module.css';
 
 const SectionTemplate = ({ url, title, desc }) => {
   return (
-    <div className="container">
+    <section className="container">
       <div className={s.containerSection1}>
         <div>
           <img className={s.img} src={url} alt={title} />
@@ -13,7 +13,7 @@ const SectionTemplate = ({ url, title, desc }) => {
           <p className={s.descItem}>{desc}</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

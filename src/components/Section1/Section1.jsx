@@ -3,7 +3,7 @@ import { ReactComponent as Pic } from 'pics/Icon.svg';
 
 const Section1 = () => {
   return (
-    <div className="container">
+    <section className="container">
       <div className={s.containerSection1} style={{ width: '50%' }}>
         <div>
           <h2 className={s.title}>Light, Fast & Powerful</h2>
@@ -44,7 +44,7 @@ const Section1 = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

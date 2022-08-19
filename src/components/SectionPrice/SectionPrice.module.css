@@ -1,12 +1,14 @@
 .container {
   padding-bottom: 170px;
   padding-top: 60px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   background-image: url('../../pics/section-price.png');
 }
 
+.wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .title {
   font-weight: 500;
   font-size: 36px;

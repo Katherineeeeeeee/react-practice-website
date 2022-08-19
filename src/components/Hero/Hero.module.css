@@ -1,7 +1,13 @@
+.hero {
+  padding-bottom: 390px;
+  padding-top: 250px;
+  background-image: url('../../pics/bcg-hero.png');
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
 .heroWrap {
   width: 555px;
-  margin-top: 200px;
-  margin-bottom: 300px;
 }
 
 .heroBtnWrap {

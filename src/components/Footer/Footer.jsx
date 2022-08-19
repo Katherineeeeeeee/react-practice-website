@@ -2,6 +2,7 @@ import s from './Footer.module.css';
 import Navigation from '../Navigation/Navigation';
 import Logo from '../Logo/Logo';
 import Button from 'components/Button/Button';
+import SocialLinks from 'components/SocialLinks/SocialLinks';
 
 const Footer = () => {
   return (
@@ -16,6 +17,7 @@ const Footer = () => {
 
         <div className={s.downFooter}>
           <Navigation />
+          <SocialLinks />
         </div>
       </div>
     </footer>
