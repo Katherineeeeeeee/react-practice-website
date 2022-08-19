@@ -5,13 +5,20 @@ import Button from 'components/Button/Button';
 
 const Footer = () => {
   return (
-    <div className="container">
-      <div className={s.footer}>
-        <Navigation />
-        <Logo />
-        <Button title="Purchase now" />
+    <footer className={s.footer}>
+      <div className={s.wrap}>
+        <div className={s.topFooter}>
+          <p> ©2020 Yourcompany</p>
+          <Logo />
+          <Button title="Purchase now" />
+        </div>
+        <span className={s.line}></span>
+
+        <div className={s.downFooter}>
+          <Navigation />
+        </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

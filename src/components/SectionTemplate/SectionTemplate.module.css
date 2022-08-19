@@ -1,7 +1,7 @@
-.containerSection1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.containerSection1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon {
@@ -10,8 +10,6 @@
 
 .title {
   text-align: left;
-
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -21,8 +19,6 @@
 }
 
 .txt {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.62;
@@ -31,8 +27,6 @@
 }
 
 .titleItem {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -41,8 +35,6 @@
 }
 
 .descItem {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
@@ -50,3 +42,12 @@
   color: #5d6970;
 }
 
+.img {
+  margin-top: 135px;
+  margin-bottom: 135px;
+  margin-right: 155px;
+}
+
+.wrap {
+  width: 445px;
+}

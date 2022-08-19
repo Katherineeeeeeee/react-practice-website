@@ -1,4 +1,6 @@
 .classList {
+  padding-bottom: 18px;
+  padding-top: 18px;
   display: flex;
   gap: 10px;
 }

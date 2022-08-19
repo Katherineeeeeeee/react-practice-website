@@ -6,11 +6,13 @@ import s from './Header.module.css';
 
 const Header = () => {
   return (
-    <header className={s.header}>
-      <Navigation />
-      <Logo />
-      <Button title='Buy Now'/>
-    </header>
+    <div className="container">
+      <header className={s.header}>
+        <Navigation />
+        <Logo />
+        <Button title="Buy Now" />
+      </header>
+    </div>
   );
 };
 

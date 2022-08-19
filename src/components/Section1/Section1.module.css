@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 165px;
 }
 
 .icon {
@@ -21,11 +22,10 @@
 }
 
 .txt {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.62;
+  width: 540px;
 
   color: #6f7cb2;
 }

@@ -15,7 +15,7 @@ const SectionPrice = () => {
         <p className={s.price}>$40</p>
         <p className={s.priceDesc}>UI Design Kit</p>
         <p className={s.priceSee}>See, One price. Simple.</p>
-        <Button title="Purchase Now" />
+        <Button classname={s.btnPriice} title="Purchase Now" />
       </div>
     </div>
   );

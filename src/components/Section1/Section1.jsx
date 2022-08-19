@@ -36,7 +36,7 @@ const Section1 = () => {
           </ul>
         </div>
 
-        <div>
+        <div style={{ width: '50%' }}>
           <img
             className={s.img}
             src={require('../../pics/img-sect.png')}
