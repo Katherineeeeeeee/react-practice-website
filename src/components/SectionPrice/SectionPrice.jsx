@@ -1,6 +1,5 @@
 import s from './SectionPrice.module.css';
 import Button from 'components/Button/Button';
-import GlobalStyles from 'GlobalStyles/GlobalStyles.module.css';
 
 const SectionPrice = () => {
   return (
